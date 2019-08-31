@@ -1,0 +1,35 @@
+{
+    "title": "编写gitbook电子书教程",
+    "description": "gitbook电子书教程",
+    "author": "sphard",
+    "language": "zh-hans",
+    "root": ".",
+    
+    "plugins": [
+        "donate",
+        "github-buttons@2.1.0",
+        "edit-link"
+    ],
+    
+    "pluginsConfig": {
+        "donate": {
+            "wechat": "/images/Wechat.jpg",
+            "alipay": "/images/Alipay.jpg",
+            "title": "",
+            "button": "打赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "github-buttons": {
+            "repo": "Florian-Gap/git-guide",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/Florian-Gao/git-guide/master",
+            "label": "Edit This Page"
+        }
+    }
+}
